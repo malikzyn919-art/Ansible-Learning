@@ -1,0 +1,20 @@
+# SSH private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Secrets
+.env
+.env.*
+vault-password-file
+
+# Local credentials
+.aws/
+
+# Private inventory
+inventory
+
+# Python
+__pycache__/
+*.pyc
